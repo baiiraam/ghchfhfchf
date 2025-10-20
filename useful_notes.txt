@@ -1,0 +1,9 @@
+tensorflow-playground
+leetcode
+datalemur
+hackerrank
+tensorflow with words or something
+mlu
+visualgo
+sql murder mystery
+to be continued...

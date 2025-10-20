@@ -1,0 +1,480 @@
+How you should choose data type for particular column when you create a table?
+What do you understand by Data-types in sql?
+Define Constraints?
+How would you add a constraint to ensure salary is always positive?
+What unique constraints should be added to prevent duplicate employee emails?
+What is NOT NULL Constraint?
+Primary key? Foreign key? Check? Default?
+What is the difference between a HAVING CLAUSE and a WHERE CLAUSE?
+Order of operations
+What the difference between UNION and UNIONALL?
+Intersect, except (minus)
+What is the difference between DELETE and TRUNCATE statement?
+What would be the output of the following script?
+   Select LEN('A value') --Without space at end
+   Select LEN('A value ') --With 2 space at end
+How you will find the LEN in above case?
+Maximum how many rows can be in the SQL Server tables? 
+Can we apply Unique key constraints on multiple columns?
+Difference between Primary key and Unique key constraints?
+How many primary keys can exist on a table?
+How many unique keys can exist on a table?
+How many foreign keys can exist on a table?
+Can you add constraints to a table that already has data?
+Output of the following queries? And why is that?
+SELECT 15
+SELECT $
+SELECT COUNT(*)
+SELECT COUNT('7')
+SELECT 'sql' + 1
+SELECT 'sql' + '1'
+SELECT (SELECT 'sql')
+SELECT SELECT 'VIKAS'
+SELECT * FROM 'Country'
+SELECT * FROM table1, table2
+SELECT COUNT(*) + COUNT(*)
+SELECT 'sql' FROM employees
+SELECT SUM(1+2*3)
+SELECT MAX(1+2*3)
+SELECT MAX(1+2*3) as maxx
+SELECT MAX(1,3,4)
+SELECT MAX('sql')
+Select Count(SELECT employee_id FROM employees)
+SELECT 1 + '1'
+SELECT '1' + 1
+SELECT NULL + 5
+SELECT NULL + '1'
+SELECT 1 WHERE NULL = NULL
+SELECT SUM(1)
+SELECT SUM('1')
+SELECT SUM(NULL)
+SELECT 6/0
+SELECT 0/0
+SELECT 0/9
+SELECT 19/9
+SELECT 20.0/9
+SELECT 1.0*38/9
+What is CTE?
+How to find N highest salary?
+
+
+
+
+
+
+
+Write a query to get all employees.
+Write a query to get only "FirstName" column.
+Write a query to get a unique department ID from employees table.
+Write a query to get the details of all employees from the employees table in descending order by their first name.
+Write a query to get the names (first_name, last_name), salary and 15% of salary as PF for all the employees.
+Write a query to get the employee ID, names (first_name, last_name) and salary in ascending order according to their salary, and last names in descending order.
+Write a query to get the total salaries payable to employees.
+Write a query to get the maximum and minimum salary paid to the employees.
+Write a query to get the average salary and number of employees that are working.
+Write a query to get the unique salary values available in the employees table.
+Write a query to calculate the expression 171*214+625.
+Write a query to select first ten records from a table.
+Write a query to get a monthly salary (rounded up to 2 decimal places) of each employee. Note : Assume the salary field provides the 'annual salary' information.
+Write a query to display the name, including first_name and last_name and salary for all employees whose salary is out of the range between $10,000 and $15,000.
+Write a query to display the name, including first_name and last_name, and department ID who works in the department 4 or 5 and arrange the result in ascending order according to the department ID.
+Write a query to display the name, including first_name and last_name, and salary who works in the department either 4 or 5 and salary is out of the range between $10,000 and $15,000.
+Show the hire years.
+Write a query to display the name, including first_name and last_name and hire date for all employees who were hired in 1987.
+Get all employee detail whose "Gender" end with 'le' and contain 4 letters. The Underscore(_) Wildcard Character represents any single character.
+Get all employee detail from EmployeeDetail table whose "FirstName" start with 'A' and contain 5 letters.
+Get all employee detail from EmployeeDetail table whose "FirstName" containing '%'. ex:-"Vik%as" ().
+Get all unique "Department"
+Get only Year part of "hire_date".
+Get now's date
+Get all employee details from EmployeeDetail table whose joining year is 2007
+Get all employee details from EmployeeDetail table whose joining month is Jan(1).
+Get all employee details from EmployeeDetail table whose joining date between
+"1993-01-01" and "1998-12-01".
+Get how many employee exist
+Select only one/top 1 record
+Select all employee detail with First name "Johnathan", "Joe", and "Michael".
+Select all employee detail with First name not in "Johnathan", "Joe", or "Michael".
+Select first name after removing white spaces from right side
+Select first name after removing white spaces from left side
+Display first name and Gender as M/F.(if male then M, if Female then F)
+Select first name prefixed with "Hello "
+Select second highest salary
+
+
+
+
+
+
+Write a query to get the first name of the employee who holds the letter 'c' and 'e' in the first name.
+Write a query to display the last name, job, and salary for all those employees who doesn't work as a Programmer (containing 'Programmer' in job title), and not drawing the salary $4,500, $10,000, or $15,000.
+Write a query to display the last names of employees whose name contain exactly six characters.
+Write a query to display the last name of employees having 'e' as the third character.
+Write a query to find the number of jobs available in the employees table.
+Write a query to get the maximum salary of an employee working in Finance.
+Write a query to get the average salary and number of employees working in the department which ID is 2.
+Write a query to get the difference between the highest and lowest salaries.
+Write a query to find the manager ID and the salary of the lowest-paid employee under that manager.Write a query to get the total salary, maximum, minimum and average salary of all posts for those departments which ID is 5.
+Write a query to get maximum salary of each department, filter records to show above $4000.
+Write a query to get the average salary for all departments where more than 10 employees work.
+
+Write a query to find the details of those employees who contain eight or more characters in their first name.
+Write a query to show name_surname@div.com
+Write a query to get the employee id, first name and hire month of an employee.
+Write a query to find all the employees which first name contains all the uppercase letter.
+Write a query to extract the last four characters of phone numbers.
+Write a query to extract the first four characters of phone numbers.
+Write a query to display the first word in the job title if the job title contains more than one word.
+Write a query to display the first name, last name for the employees, which contain a letter 'C' to their last name at 3rd or greater position.
+Write a query to find the first_name, last_name and salaries of the employees who have a higher salary than the employee whose last_name is Bull.
+Write a query to find the first_name, last_name and salaries of the employees who have a higher salary than the employee whose last_name is Bull or Doe or McMahon or Doakes.
+Write a SQL subquery to find the first_name and last_name of all employees who works in the IT or Finance departments.
+Write a SQL subquery to find the first_name and last_name of the employees under a manager who works for a department based in the United States.
+Write a SQL subquery to find the first_name and last_name of the employees who are working as a manager.
+Write a SQL Subquery to find the first_name, last_name and salary of the employees who earn more than the average salary and works in any of the IT departments.
+Write a SQL subquery to find all the information of the employees who draws the same salary as the minimum salary.
+Write a SQL subquery to find all the information of the employees whose salary greater than the average salary of all departments (ALL in front of subquery, or different method).
+Write a SQL subquery to find the first_name and last_name of the employees who are not supervisors.
+Write a set expression for previous question.
+Write a SQL subquery to find the employee ID, first name, last name and salary of all employees whose salary is above the average salary for their departments (additional WHERE inside subquery).
+Write a query to find max salary
+Write a SQL subquery to find 2nd max salary
+Write a query to get three maximum salaries.
+Write a query to get three minimum salaries.
+
+
+
+Write a query to get First name in upper case as "First Name".
+Write a query to get First name in lower case as "First Name".
+Write a query to get First name stripped of whitespaces.
+Write a query for combine firstname and lastname and display it as "Name" (also
+include white space between first name & last name)
+Select employees whose name are "John"
+Get all employees whose "FirstName" start with letter 'a'
+Get all employee details whose "FirstName" contains 'k'
+Get all employee details whose "FirstName" end with 'h'
+Show employees earning more than 8000
+Show employees working at department_id=4.
+Show employees working at Finance.
+Show employees hired after 1997 January 01.
+Show firstname and lastname of employees earning more than 8000
+Show firstname and lastname of employees earning more than 8000 and working in IT
+Show firstname and lastname of employees earning more than 8000, working in IT, and hired after 1996 March 01.
+How much capital is spent to give employees' salaries?
+Average salary
+Show department name and average salary per that department
+Show department name and employee counts per that department
+Show department name and maximum salary per that department
+Show highest earning employee details
+Show employees table, order department_name in ascending order, and salary in descending order.
+Retrieve the total_salary of all salaries, rounding the values to two decimal places.
+Show total salary of IT department
+Show average salary of Accounting department
+Show employees earning between 2000 and 6000
+Which department has the most amount of workers
+Which department has the least amount of workers
+Which department has the max salary
+Which department has the min salary
+Which department has the maximum avg salary
+Which department has the minimum avg salary
+Show avg salaries per department
+Show departments that have avg salary more than 7000
+Show employees that have names similar to john ('john', 'johny', 'johnathan', 'dejohn')
+Show employees and their department names that are either Finance or IT
+For each department, calculate avg/max salary
+For each department, calculate avg/max salary and show those greater than 0.60
+Show avg salary of employees that where hired in 2001
+Show avg salary of employees per hiring year
+
+Create a single list containing the names of all employees who are either a 'Manager' (their job title contains the word 'Manager') OR a 'Vice President' (title contains 'Vice President')
+Create a single list containing the names of all employees who are either a 'Manager' (their job title contains the word 'Manager') OR a 'Vice President' (title contains 'Vice President'), but not a 'president' (title contains president)
+Create a list of all unique first names from both employees and dependents tables.
+show employees that don't have dependents
+Display employee names, their department names, and their job titles in a single query.
+Show each employee with their direct manager's name (include employees without managers).
+Show each employee with their direct manager's name and that of direct manager's name
+(include employees without managers).
+show departments that don't have employees.
+Show all departments, even those without employees, with employee count for each.
+Find employees who have dependents vs those who don't using set operations.
+Find first names that appear in both employees and dependents tables.
+Find departments that have locations but no employees.
+select department_id's that have more expenditure than the average expenditure for all departments
+correlation between department size and average salary
+
+
+
+
+Calculate the average, minimum, and maximum salary for each department. Show the department name alongside the salary statistics. Order the results by average salary from highest to lowest.
+Find all employees who earn more than the average salary of all employees. Show their name, salary, and job title.
+Find all job titles where more than 3 employees are currently working. Show the job title and the number of employees.
+For each job title, find the average salary. 
+Only show jobs where the average salary is greater than 80% of the job's maximum salary (i.e., avg_salary > 0.8 * max_salary).
+Calculate the average tenure (in years) of employees in each department. Only include departments where the average tenure is greater than 15 years. Show the department name and average tenure.
+List all managers (by their employee ID) and the number of people who report directly to them. Only show managers who have more than 5 direct reports.
+Create a comprehensive list of all employees. Show their full name, department name, job title, and their manager's full name.
+Manager's manager.
+Find all departments that currently have no employees assigned to them. Show the department ID and name.
+We want to see all possible combinations of employees in the 'IT' department and employees in the 'Finance' department, for a potential workshop. Use a join that will show all employees from both departments, even if there's no direct match. Note: Since there's no direct link, you might need to create a "dummy" join condition or use a CROSS JOIN within a specific set.
+Hypothesis: Employees with a long tenure but no promotion (same job title for a long time) might be a retention risk. Identify employees who have been in the same job for more than 10 years (as of 2023-12-31). Show their name, job title, hire date, and tenure in the role.
+
+
+
+For each department, rank employees based on salary.
+For each department, show top 3 earners (count equal earners the same)
+Calculate the running avg salary for each department name
+Categorize salaries as "High", "Medium", or "Low"
+Identify employees earning more than the avg for their department
+Identify employees earning more than the avg for their country.
+Extract the year from hire_date in employees table
+Calculate the time difference from 'now' to hire_date in employees table
+Calculate the year, then month, then day, and then hour time difference from 'now' to hire_date in employees table
+Identify hires made during weekdays versus weekends
+List department by the percentage of capital spent for salary
+
+
+For departments in each country, show the avg salary
+For each country, show top 3 departments that are spent the most capital
+Show running avg for employee salary by year
+
+
+
+
+
+
+
+Write down the query to print first letter of a Name in Upper Case and all other letter in Lower case
+
+
+ 
+
+
+
+
+
+
+
+
+Find all employees whose salary is higher than the average salary of employees in their own country. Show the employee name, salary, country, and the average salary for their country.
+
+--pass
+
+
+
+List all employees who are the highest earners in their respective departments. Show the employee name, salary, and department name.
+
+SELECT 
+    e.first_name || ' ' || e.last_name AS employee_name,
+    e.salary,
+    d.department_name
+FROM employees e
+JOIN departments d ON e.department_id = d.department_id
+WHERE e.salary = (SELECT MAX(e2.salary) 
+                  FROM employees e2 
+                  WHERE e2.department_id = e.department_id)
+ORDER BY e.salary DESC;
+
+
+
+(or use window functions)
+
+
+
+
+
+
+
+
+Find employees who were hired before 1990 AND also have a salary greater than $15,000. Use the INTERSECT operator to combine two separate queries achieving this.
+
+SELECT employee_id, first_name || ' ' || last_name AS employee_name
+FROM employees 
+WHERE hire_date < '1990-01-01'
+
+INTERSECT
+
+SELECT employee_id, first_name || ' ' || last_name AS employee_name
+FROM employees 
+WHERE salary > 15000;
+
+
+
+
+
+
+
+
+Find the names of all employees who do not have any dependents. Solve this problem once using the EXCEPT operator and once using a NOT IN subquery.
+
+SELECT employee_id, first_name || ' ' || last_name AS employee_name
+FROM employees
+
+EXCEPT
+
+SELECT employee_id, first_name || ' ' || last_name AS employee_name
+FROM employees
+WHERE employee_id IN (SELECT DISTINCT employee_id FROM dependents);
+
+
+
+SELECT employee_id, first_name || ' ' || last_name AS employee_name
+FROM employees
+WHERE employee_id NOT IN (SELECT DISTINCT employee_id FROM dependents);
+
+
+
+
+
+
+
+
+Create a "salary distribution" report for each job title. Group salaries into three buckets: "Low" (below min_salary + 0.3*(max_salary-min_salary)), "Medium" (within the middle 40%), and "High" (above min_salary + 0.7*(max_salary-min_salary)). Count the number of employees in each bucket for each job. This is useful for compensation analytics.
+
+
+--pass
+
+
+
+
+
+
+
+
+
+
+
+Analyze if there is a correlation between having dependents and salary. Compare the average salary of employees with dependents versus the average salary of employees without dependents. (This requires two separate aggregate queries or a clever use of CASE within an aggregate function).
+
+
+
+SELECT 
+    'With Dependents' AS category,
+    ROUND(AVG(e.salary), 2) AS average_salary,
+    COUNT(e.employee_id) AS employee_count
+FROM employees e
+WHERE EXISTS (SELECT 1 FROM dependents d WHERE d.employee_id = e.employee_id)
+
+UNION ALL
+
+SELECT 
+    'Without Dependents' AS category,
+    ROUND(AVG(e.salary), 2) AS average_salary,
+    COUNT(e.employee_id) AS employee_count
+FROM employees e
+WHERE NOT EXISTS (SELECT 1 FROM dependents d WHERE d.employee_id = e.employee_id);
+
+
+or;
+
+
+
+SELECT 
+    CASE WHEN EXISTS (SELECT 1 FROM dependents d WHERE d.employee_id = e.employee_id) 
+         THEN 'With Dependents' 
+         ELSE 'Without Dependents' 
+    END AS dependent_category,
+    ROUND(AVG(e.salary), 2) AS average_salary,
+    COUNT(e.employee_id) AS employee_count
+FROM employees e
+GROUP BY 
+    CASE WHEN EXISTS (SELECT 1 FROM dependents d WHERE d.employee_id = e.employee_id) 
+         THEN 'With Dependents' 
+         ELSE 'Without Dependents' 
+    END;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Show the salary growth pattern: For each employee, display their name, hire date, salary, and the average salary of employees hired in the same year.
+Show the salary growth pattern: For each employee, display their name, hire date, salary, and the average salary of employees in that department hired in the same year.
+Find the employee with the longest tenure in each department.
+Calculate the running total of salaries within each department, ordered by employee ID.
+Find departments where the total salary expenditure exceeds the average total salary expenditure across all departments.
+Create a employee hierarchy chart: Show each employee with their manager, and their manager's manager (up to 3 levels).
+Find employees who don't have a manager but are not the company president (job_id = 4).
+Find departments that have no employees.
+Calculate the salary quartile for each employee within their department.
+Show the month-over-month hiring trend: Number of employees hired each month.
+Calculate the correlation between department size and average salary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In class____:
+
+What is window frame clause?
+Which rank am I using?
+1, 2, 3, 4, 5, 6, 7, 8, 9
+1, 2, 3, 4, 4, 4, 5, 6
+1, 2, 2, 2, 5, 6, 7
+1, 2, 3, 4, 5, 5, 6
+1, 2, 2, 2, 2, 2, 7
+Show each employee's salary along with the average salary
+Show each employee's salary along with the max salary
+Show each employee's salary along with the min salary
+Show each employee's salary along with the average salary of the department
+Show each employee's salary along with the previous employee's salary in the same department
+Show each employee's salary along with previous to previous employee's salary in the same department
+Show each employee's salary along with the next employee's salary in the same department
+Show each employee's salary along with the next of next employee's salary in the same department
+Show each employee's salary along with the average salary of the employees
+Calculate cumulative salary within each department
+Calculate cumulative salary within each department per year
+Show each employee's salary along with the max salary of the department (use max, then use first_value, then use last_value)
+Show each employee's salary along with the min salary of the department (use min, then use last_value, then use first_value)
+Rank employees by hire year (oldest -> 1st rank) (1, 1, 3)
+Rank employees by hire year (oldest -> 1st rank) (1, 1, 2)
+Rank employees by hire year (oldest -> 1st rank) (1, 2, 3)
+Rank employees by salary (1, 1, 3)
+Rank employees by salary (1, 2, 3)
+Rank employees by salary (1, 1, 2)
+Show employee details along with the rank of hire date (oldest -> 1st rank)
+Show employee details along with the rank of hire date (newest -> 1st rank)
+Show employee details along with the rank of hire date per department (oldest -> 1st rank)
+Show employee details along with the rank of hire date per department (newest -> 1st rank)
+Rank employees by hire year and salary (oldest>high earner) (1, 2, 3)
+Rank employees by hire year and salary (oldest>high earner) (1, 1, 3)
+Rank employees by hire year and salary (oldest>high earner) (1, 1, 2)
+Rank employees by salary within each department (1, 1, 3)
+Rank employees by salary within each department (1, 1, 2)
+Rank employees by salary within each department (1, 2, 3)
+Rank employees by hire year and salary in each department(oldest>high earner) (1, 2, 3)
+Rank employees by hire year and salary in each department(oldest>high earner) (1, 1, 3)
+Rank employees by hire year and salary in each department(oldest>high earner) (1, 1, 2)
